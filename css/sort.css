@@ -1,0 +1,242 @@
+html,body{
+	width: 100%;
+}
+/*顶部搜索框*/
+.seek{
+	width: 100%;
+	height: 45px;
+	position:fixed;
+	z-index: 10;
+	top: 0;
+	left: 0;
+	border-bottom: 1px solid #ccc;
+    background-image: url(../images/header-bg.png);
+    background-size: 1px 44px;
+    background-repeat: repeat-x;
+/*    box-sizing: border-box;*/
+}
+.seek .seekone{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50px;
+	height: 45px;
+	display: block;
+	padding: 7px 15px;	
+	background-image: url(../images/jd-sprites.png);
+	background-repeat: no-repeat;
+	background-size: 200px 200px;
+	background-position: -6px 14px;
+	background-clip: content-box;
+	box-sizing: border-box;
+}
+.seek .seekinput{
+	width: 100%;
+	padding: 0 50px;
+	text-align: center;
+	box-sizing: border-box;
+}
+.seek .seektow{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 50px;
+	height: 45px;
+	padding: 7px 15px;
+	display: block;
+	background-image: url(../images/jd-sprites.png);
+	background-repeat: no-repeat;
+	background-size: 200px 200px;
+	background-position: -47px 12px;
+	background-clip: content-box;
+	box-sizing: border-box;
+}
+/**/
+.seek .seekinput input{
+	margin: 5px 0;
+	width: 100%;
+	height: 35px;
+	border-radius: 7px;
+	padding-left: 10px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	outline: none;
+}
+main{
+	margin-top: 40px;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	display: flex;
+	overflow: hidden;
+	position: fixed;
+}
+
+/*左侧导航栏*/
+.nav{
+	width: 80px;
+	height: 100%;
+	overflow: hidden;
+}
+.nav ul{
+	width: 100%;
+	
+}
+.nav ul li{
+	width: 100%;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #ccc;
+	border-right:1px solid #ccc;
+	background-color: #f3f4f6;
+	font-size: 14px;
+	color: #666;
+}
+.nav ul li:first-child{
+	background-color: #fff;
+	border-right:none;
+	color: #c95213;
+}
+
+/*右侧商品栏*/
+.goods{
+	flex: 1;
+	width: 100%;
+	background-color: #fff;
+	padding-left: 15px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    overflow: hidden;
+    overflow-y:auto;
+}
+.recommend{
+	width: 100%;	
+}
+.recommend h4{
+	width: 100%;	
+	height: 50px;
+	line-height: 60px;
+	background-color: #fff;
+	box-sizing: border-box;
+
+}
+.recommend ul{
+	width: 100%;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	overflow: hidden;
+}
+.recommend ul li{
+	float: left;
+	width: 	33.33333%;
+	text-align:center;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.recommend ul li a{
+	display: block;
+	color: #666;
+	height: 45px;
+	line-height:45px;
+}
+.Guide{
+	width: 100%;
+}
+.Guide h4{
+	width: 100%;	
+	height: 50px;
+	line-height: 60px;
+	background-color: #fff;
+	box-sizing: border-box;
+}
+.Guide ul{
+	width: 100%;
+	overflow: hidden;	
+}
+.Guide ul li{
+	width: 33.33333%;
+	float: left;
+}
+.Guide ul li a{
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+}
+.Guide ul li a img{
+	width: 100%;	
+}
+.Guide ul li a span{
+	display: block;
+	font-size: 12px;
+	color:black;
+}
+.category{
+	width: 100%;
+}
+.category h4{
+	width: 100%;	
+	height: 50px;
+	line-height: 60px;
+	background-color: #fff;
+	box-sizing: border-box;
+}
+.category ul{
+	width: 100%;	
+	overflow: hidden;
+}
+.category ul li{
+	width: 33.33333%;
+	float: left;
+}
+.category ul li a{
+	width: 100%;	
+	overflow: hidden;
+	text-align: center;
+}
+.category ul li a img{
+	width: 100%;
+}
+.category ul li a span{
+	display: block;
+	font-size: 12px;
+	color: black;
+}
+.skirt{
+	width: 100%;
+}
+.skirt h4{
+	width: 100%;	
+	height: 50px;
+	line-height: 60px;
+	background-color: #fff;
+	box-sizing: border-box;
+}
+.skirt ul{
+	width: 100%;	
+	overflow: hidden;
+}
+.skirt ul li{
+	width: 33.33333%;	
+	float: left;
+}
+.skirt ul li a{
+	width: 100%;	
+	text-align: center;
+	overflow: hidden;
+}
+.skirt ul li a img{
+	width: 100%;	
+
+}
+.skirt ul li a span{
+	display: block;
+	font-size: 12px;
+	color: block;
+}
+
+
+
+
